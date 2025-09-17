@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Ocorian (Bovill)",
+    "urls": [
+      "https://compliance.ocorian.com/uk-europe/",
+      "https://www.ocorian.com/compliance/"
+    ],
+    "positioning": "Global regulatory, compliance and AML consultancy supporting FCA/PRA authorisations, regulatory advice, compliance monitoring and financial crime prevention; offers RegTech (Gateway).",
+    "offerings": [
+      "FCA/PRA authorisation",
+      "Regulatory advice and change",
+      "Compliance services and monitoring",
+      "Financial crime/AML",
+      "RegTech platform (Gateway)"
+    ],
+    "sectors": ["Asset/Wealth", "Funds", "Insurance", "Corporate/Trust"],
+    "regions": ["UK", "Channel Islands", "EU", "APAC", "Americas"]
+  },
+  {
+    "name": "fscom",
+    "urls": ["https://fscom.co/"],
+    "positioning": "Specialist governance, risk and compliance consultancy; frames compliance as a competitive advantage with maturity assessments and sector‑tailored services.",
+    "offerings": [
+      "Authorisation",
+      "Assurance & audit",
+      "Compliance advisory",
+      "Interim/specialist resourcing",
+      "Compliance maturity assessment"
+    ],
+    "sectors": ["Capital markets", "Asset management", "Banking", "Digital assets"]
+  },
+  {
+    "name": "Waystone Compliance Solutions",
+    "urls": [
+      "https://compliance.waystone.com/",
+      "https://compliance.waystone.com/services/uk-compliance-solutions/"
+    ],
+    "positioning": "End‑to‑end registration/licensing, programme integration and ongoing compliance across regions; AML/KYC, risk and data protection with training and advisory.",
+    "offerings": [
+      "UK compliance advisory & monitoring",
+      "Registration & licensing",
+      "AML/KYC solutions",
+      "Risk management & data protection",
+      "Training"
+    ],
+    "sectors": ["Hedge funds/PE", "Broker‑dealer", "Wealth/Platforms"],
+    "regions": ["UK", "US", "Middle East", "APAC"]
+  },
+  {
+    "name": "TCC Group",
+    "urls": ["https://tcc.group/"],
+    "positioning": "Intelligent compliance focused on FCA culture and conduct outcomes; blends advisory, managed services, specialist resourcing and RegTech (RecordSure).",
+    "offerings": [
+      "Advisory",
+      "Managed services",
+      "Specialist resourcing",
+      "RegTech (RecordSure)"
+    ],
+    "sectors": ["Retail FS", "Insurance", "Wealth"],
+    "proof": ["Awards incl. UK Compliance Consultancy of the Year (GAE)"]
+  },
+  {
+    "name": "IQ‑EQ (UK Compliance Consulting)",
+    "urls": ["https://iqeq.com/services/compliance-consulting-uk/"],
+    "positioning": "Compliance consulting for FCA‑regulated firms; documentation, monitoring, training and AML/KYC; ongoing and project‑based engagements.",
+    "offerings": [
+      "FCA authorisations",
+      "Compliance monitoring",
+      "Staff training",
+      "AML/KYC services"
+    ],
+    "sectors": ["Funds", "Wealth", "Corporate"]
+  }
+]
+
+

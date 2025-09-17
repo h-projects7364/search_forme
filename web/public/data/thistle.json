@@ -1,0 +1,380 @@
+{
+  "company": {
+    "name": "Thistle Initiatives",
+    "tagline": "Financial services compliance, without the complexity",
+    "positioning": "Award‑winning compliance consultancy helping firms get authorised, stay compliant and manage regulatory risk with a commercial mindset.",
+    "proofStats": {
+      "fcaApplications": "1000+",
+      "customers": "2000+",
+      "awards": "Best Financial Services Compliance Consultancy 2020–2024"
+    },
+    "memberships": ["APCC", "PIMFA"],
+    "sourceUrls": [
+      "https://www.thistleinitiatives.co.uk/",
+      "https://www.thistleinitiatives.co.uk/about/about-us"
+    ]
+  },
+  "offerings": [
+    {
+      "id": "payment_services",
+      "title": "Payment Services Compliance",
+      "category": "sector",
+      "summary": "Support for EMIs and Payment Institutions across authorisations, ongoing compliance, audits and advisory; proven experience with 250+ payment/e‑money firms.",
+      "audienceTags": [
+        "EMI",
+        "API",
+        "AISP",
+        "PISP",
+        "Acquirer",
+        "Processor",
+        "Remitter",
+        "FX Provider"
+      ],
+      "pains": [
+        "Safeguarding controls",
+        "Transaction monitoring",
+        "Documentation and governance",
+        "Consumer Duty / Financial promotions"
+      ],
+      "outcomes": [
+        "Clear authorisation/variation path",
+        "Robust AML/FC framework",
+        "Operational readiness without slowing innovation"
+      ],
+      "features": [
+        "Applications: preparation, submission, FCA Q&A",
+        "Compliance support: audits, technical advice, document suite",
+        "Audit & advisory tailored to business model"
+      ],
+      "ctas": [
+        { "label": "Get in touch", "url": "https://www.thistleinitiatives.co.uk/sectors/payment-services/#get-in-touch" }
+      ],
+      "proofRefs": ["test_vertofx", "cs_safeguarding_emi", "cs_safeguarding_api"]
+    },
+    {
+      "id": "investments",
+      "title": "Investments Compliance Services",
+      "category": "sector",
+      "summary": "Straight‑talking compliance for wholesale and retail investment firms across authorisations, CASS/ICARA, ongoing compliance and M&A due diligence.",
+      "audienceTags": [
+        "Hedge Funds",
+        "AIFMs",
+        "Asset/Wealth Managers",
+        "Brokerages",
+        "Exchanges & Trading Platforms",
+        "PE/VC",
+        "DFMs",
+        "Advisers"
+      ],
+      "pains": ["CASS weaknesses", "ICARA expectations", "Market abuse/transaction reporting"],
+      "outcomes": ["Faster authorisation/VOP", "Assured CASS/ICARA", "Clear next steps after FCA queries"],
+      "features": [
+        "Applications with end‑to‑end FCA engagement",
+        "Ongoing support: audits, advisory in plain English",
+        "Regulatory due diligence for acquisitions"
+      ],
+      "ctas": [
+        { "label": "Get in touch", "url": "https://www.thistleinitiatives.co.uk/sectors/investments/#get-in-touch" }
+      ],
+      "proofRefs": ["test_investments_wmg", "cs_ifpr_gap", "cs_launch_ar"]
+    },
+    {
+      "id": "financial_crime",
+      "title": "Financial Crime (AML/ABC/Sanctions/CTF/Fraud)",
+      "category": "service",
+      "summary": "Audits, advisory and managed resources delivered by ex‑regulators and specialists; rapid response and remediation with proportionate, commercial controls.",
+      "audienceTags": ["EMI", "API", "FinTech", "Banks", "Investment Firms"],
+      "pains": ["Backlogs (KYC/alerts)", "Sanctions screening gaps", "Policy/procedure uplift", "Regulatory scrutiny"],
+      "outcomes": ["Cleared backlogs within days", "Risk‑based frameworks aligned to guidance", "Avoid skilled person review/escalation"],
+      "features": [
+        "Audits/health checks and skilled person‑style reviews",
+        "Advisory: policies, risk assessments, tooling, enforcement support",
+        "People: flexible analysts for file remediation and onboarding"
+      ],
+      "ctas": [
+        { "label": "Get in touch", "url": "https://www.thistleinitiatives.co.uk/services/financial-crime#get-in-touch" }
+      ],
+      "proofRefs": ["test_fc_onemoneymail", "cs_fc_remediation"]
+    },
+    {
+      "id": "credit_mortgages",
+      "title": "Credit & Mortgages",
+      "category": "sector",
+      "summary": "Hands‑on consumer credit and mortgage compliance for boutiques to market leaders; applications, ongoing support, and audit/advisory with a focus on good consumer outcomes.",
+      "audienceTags": [
+        "Credit Lenders",
+        "BNPL Lenders",
+        "HCSTC",
+        "Credit Brokers",
+        "CRAs",
+        "Debt Firms",
+        "Mortgage Brokers/Lenders/Advisers"
+      ],
+      "pains": ["Threshold conditions", "Responsible lending & vulnerable customers", "BNPL regulation readiness"],
+      "outcomes": ["Application-ready submissions", "Up‑to‑date policies/procedures", "Practical controls that protect customers and business"],
+      "features": [
+        "Applications: documentation and FCA engagement",
+        "Consumer credit compliance support: policy upkeep, threshold conditions",
+        "Audit & advisory across lending, brokers, debt and mortgages"
+      ],
+      "ctas": [
+        { "label": "Get in touch", "url": "https://www.thistleinitiatives.co.uk/sectors/credit-mortgages#get-in-touch" }
+      ],
+      "proofRefs": ["test_nova_credit", "test_blend", "test_swapfiets", "cs_credit_reference_agency", "cs_smcr_credit", "cs_p2p_supervision"]
+    },
+    {
+      "id": "digital_assets",
+      "title": "Digital Asset Compliance",
+      "category": "sector",
+      "summary": "KYC/AML, governance and financial promotions support for cryptoasset firms; align to FCA expectations and future‑proof operations.",
+      "audienceTags": [
+        "Custodian Wallet Providers",
+        "Crypto Exchanges",
+        "ICO/IEO Providers",
+        "P2P Providers"
+      ],
+      "pains": ["AML registration controls", "Financial promotions ‘fair, clear, not misleading’", "Operational governance"],
+      "outcomes": ["Registration‑ready controls", "Sustainable best‑practice culture", "Compliant promotions and disclosures"],
+      "features": [
+        "Applications: AML/governance alignment",
+        "Compliance support: ongoing culture and controls",
+        "Audit & advisory across AML, governance, promotions"
+      ],
+      "ctas": [
+        { "label": "Get in touch", "url": "https://www.thistleinitiatives.co.uk/sectors/digitalassets/#get-in-touch" }
+      ],
+      "proofRefs": ["test_bitstocks", "test_financial_dots", "test_koinkoin"]
+    },
+    {
+      "id": "insurance",
+      "title": "Insurance Compliance",
+      "category": "sector",
+      "summary": "Pragmatic support from insurance regulation experts: authorisations, compliance support, audit/advisory, AR frameworks, due diligence and training.",
+      "audienceTags": [
+        "GI Brokers",
+        "MGAs",
+        "Lloyd’s Coverholders",
+        "Insurers",
+        "Affinities",
+        "Protection Providers"
+      ],
+      "pains": ["Consumer Duty price & value", "AR onboarding/monitoring", "Regulatory returns & health checks"],
+      "outcomes": ["Clear path to UK permissions", "Proportionate ongoing compliance", "Support through supervision/enforcement"],
+      "features": [
+        "Authorisations and new products",
+        "Compliance support from returns to health checks",
+        "Audit/advisory, Consumer Duty, AR frameworks, M&A due diligence, training"
+      ],
+      "ctas": [
+        { "label": "Get in touch", "url": "https://www.thistleinitiatives.co.uk/sectors/insurance#get-in-touch" }
+      ],
+      "proofRefs": []
+    },
+    {
+      "id": "compliance_support",
+      "title": "Compliance Support Services",
+      "category": "service",
+      "summary": "Outsourced compliance support that evolves with regulation: audits, advice, training, file reviews, call monitoring, complaints, promotions, updates and returns.",
+      "audienceTags": ["All FCA‑regulated firms"],
+      "pains": ["Keeping up with regulatory change", "Suitability/file issues", "Promotions compliance"],
+      "outcomes": ["Up‑to‑date frameworks", "Fewer issues at completion", "Timely regulatory returns"],
+      "features": [
+        "Compliance audits and advisory helpdesk",
+        "Training & competence; file reviews; call monitoring; complaints",
+        "Financial promotions; knowledge centre; regulatory updates; RegData returns"
+      ],
+      "ctas": [
+        { "label": "Get in touch", "url": "https://www.thistleinitiatives.co.uk/services/compliance-support/#get-in-touch" }
+      ],
+      "proofRefs": ["test_vinco"]
+    },
+    {
+      "id": "managed_services",
+      "title": "Managed Services",
+      "category": "service",
+      "summary": "Rapid deployment of specialist teams to clear backlogs and deliver remediation (KYC/KYB, CDD/EDD, AML investigations, screening) without disrupting BAU.",
+      "audienceTags": ["FinCrime Operations", "Platforms", "Banks", "FinTechs"],
+      "pains": ["Backlogs (sanctions/PEP alerts)", "Resource gaps", "Tight regulatory deadlines"],
+      "outcomes": ["15 analysts deployed in 1–2 days", "20,000+ alerts cleared in <3 weeks", "Stabilised BAU volumes"],
+      "features": [
+        "Flexible augmentation across roles and seniorities",
+        "Project delivery with governance and reporting",
+        "Tooling familiarity and best practices"
+      ],
+      "ctas": [
+        { "label": "Get in touch", "url": "https://www.thistleinitiatives.co.uk/services/managed-services#get-in-touch" }
+      ],
+      "proofRefs": ["cs_ms_backlog_screening", "cs_ms_customer_risk_assessment"]
+    }
+  ],
+  "proofs": [
+    {
+      "id": "test_vertofx",
+      "type": "testimonial",
+      "client": "VertoFX",
+      "sector": "Payment Services",
+      "quote": "Thistle has supported us with our ongoing compliance requirements ever since they assisted us to become an authorised EMI... thorough and constructive with any feedback or advice...",
+      "link": "https://www.thistleinitiatives.co.uk/sectors/payment-services/"
+    },
+    {
+      "id": "test_investments_wmg",
+      "type": "testimonial",
+      "client": "WMG Funds LLP",
+      "sector": "Investments",
+      "quote": "Thistle deployed serious resources to the project, and provided comprehensive analysis and recommendations... We continue to be impressed with both the methodology and the people...",
+      "link": "https://www.thistleinitiatives.co.uk/sectors/investments"
+    },
+    {
+      "id": "test_fc_onemoneymail",
+      "type": "testimonial",
+      "client": "One Money Mail Ltd",
+      "sector": "Financial Crime",
+      "quote": "Their methodology, scope, and execution were carefully structured and well‑timed... The advice provided to our organisation was incredibly helpful.",
+      "link": "https://www.thistleinitiatives.co.uk/services/financial-crime"
+    },
+    {
+      "id": "cs_safeguarding_emi",
+      "type": "caseStudy",
+      "title": "Safeguarding & Wind‑Down Planning: E‑Money Institution",
+      "sector": "Payment Services",
+      "link": "https://www.thistleinitiatives.co.uk/about/case-studies/safeguarding-wind-down-planning-emi"
+    },
+    {
+      "id": "cs_safeguarding_api",
+      "type": "caseStudy",
+      "title": "Safeguarding & Wind‑Down Planning: Authorised Payments Institution",
+      "sector": "Payment Services",
+      "link": "https://www.thistleinitiatives.co.uk/about/case-studies/safeguarding-wind-down-planning-api"
+    },
+    {
+      "id": "cs_ifpr_gap",
+      "type": "caseStudy",
+      "title": "IFPR / MIFIDPRU Gap Analysis",
+      "sector": "Investments",
+      "link": "https://www.thistleinitiatives.co.uk/about/case-studies/ifpr-mifidpru-gap-analysis-case-study-key-challenges-and-insights"
+    },
+    {
+      "id": "cs_launch_ar",
+      "type": "caseStudy",
+      "title": "Launching an Appointed Representative",
+      "sector": "Investments",
+      "link": "https://www.thistleinitiatives.co.uk/about/case-studies/launching-an-appointed-representative"
+    },
+    {
+      "id": "test_vinco",
+      "type": "testimonial",
+      "client": "Vinco",
+      "sector": "Compliance Support",
+      "quote": "Thistle assist Vinco in all areas of regulatory business... Thistle provide an uncomplicated, commercial answer.",
+      "link": "https://www.thistleinitiatives.co.uk/services/compliance-support"
+    },
+    {
+      "id": "test_nova_credit",
+      "type": "testimonial",
+      "client": "Nova Credit UK",
+      "sector": "Credit & Mortgages",
+      "quote": "Thistle helped us secure our UK Credit Reference Agency licence with high‑quality FCA‑ready paperwork and expert service throughout.",
+      "link": "https://www.thistleinitiatives.co.uk/sectors/credit-mortgages"
+    },
+    {
+      "id": "test_blend",
+      "type": "testimonial",
+      "client": "BLEND",
+      "sector": "Credit & Mortgages",
+      "quote": "Invaluable, proactive and tailored compliance support; accurate, detailed and scaled to our business.",
+      "link": "https://www.thistleinitiatives.co.uk/sectors/credit-mortgages"
+    },
+    {
+      "id": "test_swapfiets",
+      "type": "testimonial",
+      "client": "Swapfiets",
+      "sector": "Credit & Mortgages",
+      "quote": "Helpful guidance through our FCA application; engaged, knowledgeable and supportive team.",
+      "link": "https://www.thistleinitiatives.co.uk/sectors/credit-mortgages"
+    },
+    {
+      "id": "test_bitstocks",
+      "type": "testimonial",
+      "client": "Bitstocks",
+      "sector": "Digital Assets",
+      "quote": "Thistle delivered an FCA crypto application at very short notice to a high standard, based on deep regulatory understanding.",
+      "link": "https://www.thistleinitiatives.co.uk/sectors/digitalassets"
+    },
+    {
+      "id": "test_financial_dots",
+      "type": "testimonial",
+      "client": "Financial Dots",
+      "sector": "Digital Assets",
+      "quote": "Engaged, diligent, professional and responsive from start to finish.",
+      "link": "https://www.thistleinitiatives.co.uk/sectors/digitalassets"
+    },
+    {
+      "id": "test_koinkoin",
+      "type": "testimonial",
+      "client": "Koin Koin",
+      "sector": "Digital Assets",
+      "quote": "Built our regulatory profile and supported FCA registration; we would work with Thistle again.",
+      "link": "https://www.thistleinitiatives.co.uk/sectors/digitalassets"
+    },
+    {
+      "id": "cs_credit_reference_agency",
+      "type": "caseStudy",
+      "title": "Credit Reference Agency Permission",
+      "sector": "Credit & Mortgages",
+      "link": "https://www.thistleinitiatives.co.uk/about/case-studies/credit-reference-agency-permission"
+    },
+    {
+      "id": "cs_smcr_credit",
+      "type": "caseStudy",
+      "title": "Senior Managers & Certification Regime (SM&CR) for Credit",
+      "sector": "Credit & Mortgages",
+      "link": "https://www.thistleinitiatives.co.uk/about/case-studies/the-senior-managers-certification-regime-smcr-for-credit"
+    },
+    {
+      "id": "cs_p2p_supervision",
+      "type": "caseStudy",
+      "title": "Peer‑to‑Peer Lending Supervision",
+      "sector": "Credit & Mortgages",
+      "link": "https://www.thistleinitiatives.co.uk/about/case-studies/peer-to-peer-lending-supervision"
+    },
+    {
+      "id": "cs_ms_backlog_screening",
+      "type": "caseStudy",
+      "title": "Backlog of Screening Alerts (20,000+ cleared)",
+      "sector": "Managed Services",
+      "link": "https://www.thistleinitiatives.co.uk/services/managed-services"
+    },
+    {
+      "id": "cs_ms_customer_risk_assessment",
+      "type": "caseStudy",
+      "title": "Customer Risk Assessment Remediation",
+      "sector": "Managed Services",
+      "link": "https://www.thistleinitiatives.co.uk/services/managed-services"
+    }
+  ],
+  "contact": {
+    "nextSteps": [
+      "Share your URL to tailor the plan",
+      "Review suggested path and focus areas",
+      "Book a 20‑min scoping call or request a checklist"
+    ]
+  },
+  "meta": {
+    "lastUpdated": "2025-09-17",
+    "coverage": [
+      "homepage",
+      "sectors/payment-services",
+      "sectors/investments",
+      "sectors/credit-mortgages",
+      "sectors/digitalassets",
+      "sectors/insurance",
+      "services/compliance-support",
+      "services/managed-services",
+      "services/financial-crime",
+      "about/case-studies/*",
+      "about/about-us"
+    ]
+  }
+}
+
+
