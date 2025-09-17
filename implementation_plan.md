@@ -41,6 +41,30 @@
   - Provide bookmarklet instructions and a shareable link; list supported sample domains.
   - Staging URL with the overlay pre‑mounted; instructions for A/B toggle via localStorage.
 
+### Bookmarklet progress (current status)
+
+- What works
+  - Next.js app lives in `web/` and is deployed to Vercel; Root Directory is set to `web`.
+  - Tailwind v4 + shadcn/ui wired; `ThemeProvider` added; basic overlay UI implemented.
+  - Datasets available at `public/data/thistle.json` and `public/data/competitors.json`.
+  - `public/overlay.js` renders a compact Shadow‑DOM overlay and can be injected on permissive sites via a bookmarklet.
+
+- Attempts and findings on thistleinitiatives.co.uk
+  - Direct script injection bookmarklet: blocked (no visible effect) — likely due to the site’s Content Security Policy disallowing external script execution.
+  - Iframe bookmarklet (`<iframe src="https://…">`): initially blocked because our app responded with `X-Frame-Options: deny`.
+  - Mitigations attempted in our app:
+    - Added `middleware.ts` to remove `X-Frame-Options` and set `Content-Security-Policy: frame-ancestors` to include Thistle domains.
+    - Added a dedicated `/embed` route that serves a minimal HTML shell, explicitly sets `frame-ancestors` for Thistle, and omits `X-Frame-Options`.
+  - Result: the target page still reports `Refused to display … because it set 'X-Frame-Options' to 'deny'`. This suggests a remaining header at the edge/CDN or a route not covered by our adjustments.
+
+- Decision
+  - Park the bookmarklet for now and proceed with backend and in‑app UI development to unblock the demo flow. We will re‑enable bookmarklet delivery later.
+
+- Follow‑ups (when we return to bookmarklet)
+  - Add `vercel.json` header rules to strip `X-Frame-Options` and set `frame-ancestors` globally (or for `/embed`).
+  - Verify headers on `https://<domain>/embed` in the Network tab (expect: no `X-Frame-Options`, CSP includes `frame-ancestors https://www.thistleinitiatives.co.uk https://thistleinitiatives.co.uk`).
+  - If CSP on the client site also blocks iframes, deliver via a Chrome MV3 extension (content script) as the fallback.
+
 ## Implementation Plan — Thistle Initiatives Personalized Overlay (Bookmarklet‑first)
 
 ### 0) Objectives and success criteria
